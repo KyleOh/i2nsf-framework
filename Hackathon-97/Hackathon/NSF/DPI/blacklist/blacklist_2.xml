@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <capabilities>
+    <capability>urn:ietf:params:netconf:base:1.0</capability>
+  </capabilities>
+</hello>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="1">
+  <edit-config>
+    <target>
+      <running/>
+    </target>
+    <config>
+      <policy xmlns="http://skku.com/iot/example/ietf-i2nsf-capability-interface"
+             xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">
+        <voip-volte-rule nc:operation="create">
+		  <rule-name>user_agent</rule-name>
+		  <rule-id>4</rule-id>
+		  <event>
+			<called-voip>true</called-voip>
+	      </event>
+		  <condition>
+			<sip-user-agent>eyebeam</sip-user-agent>
+		  </condition>
+		  <action>
+			<action-type>
+				<ingress-action>
+					<deny>true</deny>
+				</ingress-action>
+			</action-type>
+		  </action>
+	   </voip-volte-rule>
+      </policy>
+    </config>
+  </edit-config>
+</rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="2">
+  <close-session/>
+</rpc>
+]]>]]>

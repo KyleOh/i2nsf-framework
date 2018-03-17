@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2016-11-09 09:50:39
+# Via: netconf
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10124
+
+policy {
+    delete:
+    voip-volte-rule User_Agent_Block;
+}

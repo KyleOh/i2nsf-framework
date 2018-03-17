@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_IP_SIZE	ipPacketReceiver.c	19;"	d	file:
+MAX_UDP_PAYLOAD_SIZE	ipPacketReceiver.c	20;"	d	file:
+PROTOCOL_NUM	ipPacketReceiver.c	21;"	d	file:
+get_name_with_ip_address	ipPacketReceiver.c	/^char* get_name_with_ip_address(struct iphdr* iphdr) {$/;"	f
+main	ipPacketReceiver.c	/^int main(int argc, char *argv[]) {$/;"	f
+start_ip_listening	ipPacketReceiver.c	/^int start_ip_listening(char *hostName, char *hostIP) {$/;"	f

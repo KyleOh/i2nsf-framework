@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<capabilities>
+ <capability>urn:ietf:params:netconf:base:1.0</capability>
+</capabilities>
+</hello>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<nc:rpc xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:pol="http://skku.edu/nsf-facing-interface" message-id="1">
+<nc:edit-config>
+ <nc:target>
+  <nc:running />
+  </nc:target>
+  <nc:config>
+  <pol:cfg-network-security-control>
+   <pol:policy>
+    <pol:policy-id>1</pol:policy-id>
+     <pol:policy-name>i2nsf-firewall</pol:policy-name>
+     <pol:rules nc:operation="replace">
+     <pol:rule-id>2</pol:rule-id>
+      <pol:rule-name>Level-3</pol:rule-name>
+      <pol:condition>
+      <pol:target-security-condition>
+       <pol:service-sec-context-cond>
+                  </pol:service-sec-context-cond>
+      </pol:target-security-condition>
+      </pol:condition>
+      <pol:action>
+      <pol:ingress-action-type>pass</pol:ingress-action-type>
+      </pol:action>
+    </pol:rules>
+    </pol:policy>
+  </pol:cfg-network-security-control>
+  </nc:config>
+</nc:edit-config>
+</nc:rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc message-id="2" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<close-session />
+</rpc>
+]]>]]>

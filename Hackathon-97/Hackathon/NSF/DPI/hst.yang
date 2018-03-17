@@ -1,0 +1,71 @@
+module ietf-i2nsf-capability-interface {
+  namespace "http://skku.com/iot/example/ietf-i2nsf-capability-interface";
+  prefix dpi;
+
+  import ietf-inet-types {
+    prefix inet;
+  }
+
+  import ietf-yang-types {
+	  prefix yang;
+  }
+
+  import tailf-common {
+	prefix tailf;
+  } 
+
+
+  /* A set of filtering structures  */
+  container policy {
+    tailf:callpoint hcp;
+
+	list voip-volte-rule {
+		key rule-name;
+		max-elements 64;
+		leaf rule-name {
+			type string;
+			mandatory true;
+		}
+		leaf rule-id {
+			type uint32;
+			mandatory true;
+		}
+		container event { 
+			leaf called-voip {
+				type boolean;
+			}
+			leaf called-volte {
+				type boolean;
+			}
+		}
+		container condition {
+			leaf-list sip-uri {
+				type string;
+				min-elements 0;
+				max-elements 256;
+			}
+			leaf-list sip-user-agent {
+				type string;
+				min-elements 0;
+				max-elements 256;
+			}
+		}
+		container action {
+			container action-type {
+				container ingress-action {
+					leaf permit {
+						type boolean;
+					}
+					leaf deny {
+						type boolean;
+					}
+					leaf mirror {
+						type boolean;
+					}
+				}
+			}
+		}
+	}
+  }
+}
+

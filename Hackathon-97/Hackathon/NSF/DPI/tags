@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADVANCED	nsf-secu-controller-interface.c	37;"	d	file:
+BINARY_DIR	Makefile	/^BINARY_DIR ?= ..\/..\/bin$/;"	m
+CONFD_DIR	Makefile	/^CONFD_DIR ?= ..\/..\/..\/confd-6.2$/;"	m
+CONFD_FLAGS	Makefile	/^CONFD_FLAGS = --addloadpath $(CONFD_DIR)\/etc\/confd $/;"	m
+CONFD_FLAGS	Makefile	/^CONFD_FLAGS ?=$/;"	m
+DENY	nsf-secu-controller-interface.c	35;"	d	file:
+INTERFACE_DIR	Makefile	/^INTERFACE_DIR ?= ..\/..\/Interfaces$/;"	m
+MIRROR	nsf-secu-controller-interface.c	36;"	d	file:
+OBJS	Makefile	/^OBJS	= nsf-secu-controller-interface.o nsf-sff-interface.o mysql-interface.o main.o #$(SRC:.c=.o)$/;"	m
+PERMIT	nsf-secu-controller-interface.c	34;"	d	file:
+SRC	Makefile	/^SRC	= main.c nsf-secu-controller-interface.c $(INTERFACE_DIR)\/nsf-sff-interface.c $(INTERFACE_DIR)\/mysql-interface.c$/;"	m
+START_FLAGS	Makefile	/^START_FLAGS ?=$/;"	m
+VOIP	nsf-secu-controller-interface.c	39;"	d	file:
+VOLTE	nsf-secu-controller-interface.c	40;"	d	file:
+_HST_H_	hst.h	9;"	d
+__NSF_SECU_CONTROLLER_INTERFACE__	nsf-secu-controller-interface.h	2;"	d
+action	nsf-secu-controller-interface.c	/^    int action;$/;"	m	struct:policy	file:
+add_policy	nsf-secu-controller-interface.c	/^static bool add_policy(struct policy *policy_container) {$/;"	f	file:
+bool	nsf-secu-controller-interface.c	30;"	d	file:
+ctlsock	nsf-secu-controller-interface.c	/^    int ctlsock;$/;"	m	struct:mydata	file:
+dctx	nsf-secu-controller-interface.c	/^static struct confd_daemon_ctx *dctx;$/;"	v	typeref:struct:confd_daemon_ctx	file:
+dpi__callpointid_hcp	hst.h	37;"	d
+dpi__ns	hst.h	16;"	d
+dpi__ns_id	hst.h	17;"	d
+dpi__ns_uri	hst.h	18;"	d
+dpi_action	hst.h	24;"	d
+dpi_action_type	hst.h	31;"	d
+dpi_called_voip	hst.h	28;"	d
+dpi_called_volte	hst.h	34;"	d
+dpi_condition	hst.h	26;"	d
+dpi_deny	hst.h	30;"	d
+dpi_event	hst.h	25;"	d
+dpi_ingress_action	hst.h	36;"	d
+dpi_mirror	hst.h	33;"	d
+dpi_permit	hst.h	27;"	d
+dpi_policy	hst.h	23;"	d
+dpi_rule_id	hst.h	22;"	d
+dpi_rule_name	hst.h	35;"	d
+dpi_sip_uri	hst.h	29;"	d
+dpi_sip_user_agent	hst.h	32;"	d
+dpi_voip_volte_rule	hst.h	21;"	d
+event	nsf-secu-controller-interface.c	/^	int event;$/;"	m	struct:policy	file:
+false	nsf-secu-controller-interface.c	32;"	d	file:
+getCurrentTime	main.c	/^int getCurrentTime() {$/;"	f
+ipHeaderLen	main.c	/^int ipHeaderLen;$/;"	v
+is_policy_exists	nsf-secu-controller-interface.c	/^static bool is_policy_exists(char *policy_name) {$/;"	f	file:
+locked	nsf-secu-controller-interface.c	/^    int locked;$/;"	m	struct:mydata	file:
+main	main.c	/^int main(int argc, char *argv[]) {$/;"	f
+mydata	nsf-secu-controller-interface.c	/^struct mydata {$/;"	s	file:
+new_policy	nsf-secu-controller-interface.c	/^static struct policy *new_policy(char *name)$/;"	f	file:
+nsf_sff_interface	main.c	/^void *nsf_sff_interface(void *arg) {$/;"	f
+policy	nsf-secu-controller-interface.c	/^struct policy {$/;"	s	file:
+policy_cbks	nsf-secu-controller-interface.c	/^static struct confd_data_cbs policy_cbks;$/;"	v	typeref:struct:confd_data_cbs	file:
+policy_create	nsf-secu-controller-interface.c	/^static int policy_create(struct confd_trans_ctx *tctx, confd_hkeypath_t *keypath) {$/;"	f	file:
+policy_delete	nsf-secu-controller-interface.c	/^static int policy_delete(struct confd_trans_ctx *tctx, confd_hkeypath_t *keypath) {$/;"	f	file:
+policy_get_elem	nsf-secu-controller-interface.c	/^static int policy_get_elem (struct confd_trans_ctx *tctx, confd_hkeypath_t *keypath) {$/;"	f	file:
+policy_get_next	nsf-secu-controller-interface.c	/^static int policy_get_next(struct confd_trans_ctx *tctx, confd_hkeypath_t *keypath, long next) {$/;"	f	file:
+policy_num_instances	nsf-secu-controller-interface.c	/^static int policy_num_instances(struct confd_trans_ctx *tctx, confd_hkeypath_t *keypath) {$/;"	f	file:
+policy_set_elem	nsf-secu-controller-interface.c	/^static int policy_set_elem(struct confd_trans_ctx *tctx, confd_hkeypath_t *keypath, confd_value_t *newval) {$/;"	f	file:
+processPacket	main.c	/^void processPacket(uint8_t *data, int dataLen, int protocol) {$/;"	f
+processUdpProtocol	main.c	/^void processUdpProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {$/;"	f
+rule_id	nsf-secu-controller-interface.c	/^    int rule_id;$/;"	m	struct:policy	file:
+rule_name	nsf-secu-controller-interface.c	/^    char rule_name[50];        \/\/ ID$/;"	m	struct:policy	file:
+sip_uri	nsf-secu-controller-interface.c	/^	char *sip_uri[256];$/;"	m	struct:policy	file:
+sip_user_agent	nsf-secu-controller-interface.c	/^	char *sip_user_agent[256];$/;"	m	struct:policy	file:
+start_confd	nsf-secu-controller-interface.c	/^void start_confd() {$/;"	f
+tr_abort	nsf-secu-controller-interface.c	/^static int tr_abort(struct confd_trans_ctx *tctx)$/;"	f	file:
+tr_commit	nsf-secu-controller-interface.c	/^static int tr_commit(struct confd_trans_ctx *tctx) \/\/ use the xml files.$/;"	f	file:
+tr_finish	nsf-secu-controller-interface.c	/^static int tr_finish(struct confd_trans_ctx *tctx)$/;"	f	file:
+tr_init	nsf-secu-controller-interface.c	/^static int tr_init(struct confd_trans_ctx *tctx)$/;"	f	file:
+tr_prepare	nsf-secu-controller-interface.c	/^static int tr_prepare(struct confd_trans_ctx *tctx)$/;"	f	file:
+tr_writestart	nsf-secu-controller-interface.c	/^static int tr_writestart(struct confd_trans_ctx *tctx)$/;"	f	file:
+trans	nsf-secu-controller-interface.c	/^static struct confd_trans_cbs trans;$/;"	v	typeref:struct:confd_trans_cbs	file:
+true	nsf-secu-controller-interface.c	31;"	d	file:
+uri_num	nsf-secu-controller-interface.c	/^	int uri_num;$/;"	m	struct:policy	file:
+user_agent_num	nsf-secu-controller-interface.c	/^	int user_agent_num;$/;"	m	struct:policy	file:
+workersock	nsf-secu-controller-interface.c	/^    int workersock;$/;"	m	struct:mydata	file:

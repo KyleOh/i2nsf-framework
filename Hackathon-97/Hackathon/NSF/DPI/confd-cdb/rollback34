@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2016-11-06 20:04:59
+# Via: netconf
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10099
+
+policy {
+    delete:
+    voip-volte-rule Emqeployee2;
+}

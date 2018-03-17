@@ -1,0 +1,276 @@
+<INFO> 10-Oct-2016::22:34:26.344 secu confd[19081]: audit user: admin/0 logged in over ssh from 10.0.0.3 with authmeth:password
+<INFO> 10-Oct-2016::22:34:26.370 secu confd[19081]: audit user: admin/12 assigned to groups: admin
+<INFO> 10-Oct-2016::22:34:26.502 secu confd[19081]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Oct-2016::11:59:03.869 secu confd[53056]: audit user: admin/0 logged in over ssh from 10.0.0.3 with authmeth:password
+<INFO> 11-Oct-2016::11:59:03.896 secu confd[53056]: audit user: admin/12 assigned to groups: admin
+<INFO> 11-Oct-2016::11:59:04.108 secu confd[53056]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Oct-2016::11:59:39.447 secu confd[53056]: audit user: admin/0 logged in over ssh from 10.0.0.3 with authmeth:password
+<INFO> 11-Oct-2016::11:59:39.452 secu confd[53056]: audit user: admin/13 assigned to groups: admin
+<INFO> 11-Oct-2016::11:59:39.503 secu confd[53056]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Oct-2016::11:59:48.137 secu confd[53056]: audit user: admin/0 logged in over ssh from 10.0.0.3 with authmeth:password
+<INFO> 11-Oct-2016::11:59:48.149 secu confd[53056]: audit user: admin/14 assigned to groups: admin
+<INFO> 11-Oct-2016::11:59:48.255 secu confd[53056]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Oct-2016::12:02:01.673 secu confd[53056]: audit user: admin/0 logged in over ssh from 10.0.0.3 with authmeth:password
+<INFO> 11-Oct-2016::12:02:01.709 secu confd[53056]: audit user: admin/15 assigned to groups: admin
+<INFO> 11-Oct-2016::12:02:01.794 secu confd[53056]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Oct-2016::16:07:23.229 secu confd[74676]: audit user: admin/0 logged in over ssh from 10.0.0.4 with authmeth:password
+<INFO> 11-Oct-2016::16:07:23.261 secu confd[74676]: audit user: admin/12 assigned to groups: admin
+<INFO> 11-Oct-2016::16:07:23.315 secu confd[74676]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Oct-2016::16:12:20.765 secu confd[74676]: audit user: admin/0 logged in over ssh from 10.0.0.4 with authmeth:password
+<INFO> 11-Oct-2016::16:12:20.772 secu confd[74676]: audit user: admin/13 assigned to groups: admin
+<INFO> 11-Oct-2016::16:12:20.862 secu confd[74676]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Oct-2016::16:18:35.527 secu confd[76585]: audit user: admin/0 logged in over ssh from 10.0.0.4 with authmeth:password
+<INFO> 11-Oct-2016::16:18:35.562 secu confd[76585]: audit user: admin/12 assigned to groups: admin
+<INFO> 11-Oct-2016::16:18:35.666 secu confd[76585]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Oct-2016::16:18:59.123 secu confd[76585]: audit user: admin/0 logged in over ssh from 10.0.0.4 with authmeth:password
+<INFO> 11-Oct-2016::16:18:59.157 secu confd[76585]: audit user: admin/13 assigned to groups: admin
+<INFO> 11-Oct-2016::16:18:59.203 secu confd[76585]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 12-Oct-2016::02:40:07.653 secu confd[18432]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 12-Oct-2016::02:40:07.666 secu confd[18432]: audit user: admin/12 assigned to groups: admin
+<INFO> 12-Oct-2016::02:40:07.829 secu confd[18432]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 12-Oct-2016::02:44:40.126 secu confd[20046]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 12-Oct-2016::02:44:40.137 secu confd[20046]: audit user: admin/12 assigned to groups: admin
+<INFO> 12-Oct-2016::02:44:40.349 secu confd[20046]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 12-Oct-2016::23:01:23.703 secu confd[35230]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 12-Oct-2016::23:01:23.728 secu confd[35230]: audit user: admin/12 assigned to groups: admin
+<INFO> 12-Oct-2016::23:01:24.389 secu confd[35230]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 12-Oct-2016::23:06:08.271 secu confd[36685]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 12-Oct-2016::23:06:08.277 secu confd[36685]: audit user: admin/12 assigned to groups: admin
+<INFO> 12-Oct-2016::23:06:08.479 secu confd[36685]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::03:31:43.563 secu confd[75885]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::03:31:43.589 secu confd[75885]: audit user: admin/12 assigned to groups: admin
+<INFO> 13-Oct-2016::03:31:43.835 secu confd[75885]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::04:51:16.255 secu confd[82083]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::04:51:16.266 secu confd[82083]: audit user: admin/12 assigned to groups: admin
+<INFO> 13-Oct-2016::04:51:16.481 secu confd[82083]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::04:51:50.763 secu confd[82083]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::04:51:50.796 secu confd[82083]: audit user: admin/13 assigned to groups: admin
+<INFO> 13-Oct-2016::04:51:50.952 secu confd[82083]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::04:52:05.935 secu confd[82083]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::04:52:05.943 secu confd[82083]: audit user: admin/14 assigned to groups: admin
+<INFO> 13-Oct-2016::04:52:06.106 secu confd[82083]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::05:57:42.955 secu confd[85648]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::05:57:42.969 secu confd[85648]: audit user: admin/12 assigned to groups: admin
+<INFO> 13-Oct-2016::05:57:43.163 secu confd[85648]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::09:28:10.759 secu confd[90926]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::09:28:10.786 secu confd[90926]: audit user: admin/12 assigned to groups: admin
+<INFO> 13-Oct-2016::09:28:10.903 secu confd[90926]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::09:37:27.219 secu confd[97828]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::09:37:27.235 secu confd[97828]: audit user: admin/12 assigned to groups: admin
+<INFO> 13-Oct-2016::09:37:27.469 secu confd[97828]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::16:59:14.508 secu confd[112786]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::16:59:14.538 secu confd[112786]: audit user: admin/12 assigned to groups: admin
+<INFO> 13-Oct-2016::16:59:14.780 secu confd[112786]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::17:01:54.840 secu confd[112786]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::17:01:54.847 secu confd[112786]: audit user: admin/13 assigned to groups: admin
+<INFO> 13-Oct-2016::17:01:55.001 secu confd[112786]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::17:19:08.929 secu confd[114911]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::17:19:08.941 secu confd[114911]: audit user: admin/12 assigned to groups: admin
+<INFO> 13-Oct-2016::17:19:09.300 secu confd[114911]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 13-Oct-2016::17:31:04.817 secu confd[116678]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 13-Oct-2016::17:31:04.824 secu confd[116678]: audit user: admin/12 assigned to groups: admin
+<INFO> 13-Oct-2016::17:31:05.036 secu confd[116678]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 14-Oct-2016::02:29:20.219 secu confd[32516]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 14-Oct-2016::02:29:20.226 secu confd[32516]: audit user: admin/12 assigned to groups: admin
+<INFO> 14-Oct-2016::02:29:20.525 secu confd[32516]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 17-Oct-2016::13:22:47.040 secu confd[4312]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 17-Oct-2016::13:22:47.072 secu confd[4312]: audit user: admin/12 assigned to groups: admin
+<INFO> 17-Oct-2016::13:22:47.364 secu confd[4312]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 17-Oct-2016::13:23:28.471 secu confd[4312]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 17-Oct-2016::13:23:28.483 secu confd[4312]: audit user: admin/13 assigned to groups: admin
+<INFO> 17-Oct-2016::13:23:28.637 secu confd[4312]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 4-Nov-2016::07:18:44.665 secu confd[13395]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 4-Nov-2016::07:18:44.695 secu confd[13395]: audit user: admin/12 assigned to groups: admin
+<INFO> 4-Nov-2016::07:18:44.747 secu confd[13395]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 4-Nov-2016::07:19:58.601 secu confd[13395]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 4-Nov-2016::07:19:58.609 secu confd[13395]: audit user: admin/13 assigned to groups: admin
+<INFO> 4-Nov-2016::07:19:58.639 secu confd[13395]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 4-Nov-2016::07:20:30.639 secu confd[13395]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 4-Nov-2016::07:20:30.653 secu confd[13395]: audit user: admin/14 assigned to groups: admin
+<INFO> 4-Nov-2016::07:20:30.777 secu confd[13395]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::01:40:19.208 secu confd[39741]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::01:40:19.224 secu confd[39741]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::01:40:19.409 secu confd[39741]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::02:30:00.364 secu confd[45996]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::02:30:00.369 secu confd[45996]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::02:30:00.566 secu confd[45996]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::02:32:48.205 secu confd[45996]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::02:32:48.213 secu confd[45996]: audit user: admin/13 assigned to groups: admin
+<INFO> 6-Nov-2016::02:32:48.359 secu confd[45996]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::02:48:58.320 secu confd[48916]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::02:48:58.338 secu confd[48916]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::02:48:58.530 secu confd[48916]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::02:55:09.522 secu confd[49244]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::02:55:09.555 secu confd[49244]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::02:55:09.657 secu confd[49244]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::02:56:19.185 secu confd[50869]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::02:56:19.195 secu confd[50869]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::02:56:19.386 secu confd[50869]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::02:58:08.808 secu confd[52517]: audit user: admin/0 logged in over ssh from 10.0.0.102 with authmeth:password
+<INFO> 6-Nov-2016::02:58:08.836 secu confd[52517]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::02:58:09.029 secu confd[52517]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:01:02.253 secu confd[54155]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:01:02.264 secu confd[54155]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:01:02.461 secu confd[54155]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:01:17.679 secu confd[54155]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:01:17.698 secu confd[54155]: audit user: admin/13 assigned to groups: admin
+<INFO> 6-Nov-2016::03:01:17.848 secu confd[54155]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:02:18.596 secu confd[55793]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:02:18.600 secu confd[55793]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:02:18.785 secu confd[55793]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:05:59.321 secu confd[57519]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:05:59.331 secu confd[57519]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:05:59.518 secu confd[57519]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:08:46.412 secu confd[59201]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:08:46.443 secu confd[59201]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:08:46.644 secu confd[59201]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:15:51.069 secu confd[61046]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:15:51.103 secu confd[61046]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:15:51.309 secu confd[61046]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:23:28.209 secu confd[62950]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:23:28.212 secu confd[62950]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:23:28.415 secu confd[62950]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:32:46.796 secu confd[64767]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:32:46.802 secu confd[64767]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:32:46.969 secu confd[64767]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:37:33.316 secu confd[66487]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:37:33.351 secu confd[66487]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:37:33.571 secu confd[66487]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:41:17.349 secu confd[68188]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:41:17.355 secu confd[68188]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:41:17.554 secu confd[68188]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::03:52:48.781 secu confd[70073]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::03:52:48.798 secu confd[70073]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::03:52:48.996 secu confd[70073]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::19:48:15.792 secu confd[81016]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::19:48:15.800 secu confd[81016]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::19:48:15.993 secu confd[81016]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::19:48:20.241 secu confd[81016]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::19:48:20.257 secu confd[81016]: audit user: admin/13 assigned to groups: admin
+<INFO> 6-Nov-2016::19:48:20.422 secu confd[81016]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::19:52:16.850 secu confd[81016]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::19:52:16.859 secu confd[81016]: audit user: admin/14 assigned to groups: admin
+<INFO> 6-Nov-2016::19:52:17.017 secu confd[81016]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::19:53:16.259 secu confd[81016]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::19:53:16.264 secu confd[81016]: audit user: admin/15 assigned to groups: admin
+<INFO> 6-Nov-2016::19:53:16.417 secu confd[81016]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::19:55:02.945 secu confd[82908]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::19:55:02.955 secu confd[82908]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::19:55:03.262 secu confd[82908]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::19:55:08.373 secu confd[82908]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::19:55:08.378 secu confd[82908]: audit user: admin/13 assigned to groups: admin
+<INFO> 6-Nov-2016::19:55:08.523 secu confd[82908]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::20:04:59.602 secu confd[84788]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::20:04:59.632 secu confd[84788]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::20:04:59.878 secu confd[84788]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::20:05:04.782 secu confd[84788]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::20:05:04.814 secu confd[84788]: audit user: admin/13 assigned to groups: admin
+<INFO> 6-Nov-2016::20:05:04.912 secu confd[84788]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::20:07:01.018 secu confd[86449]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::20:07:01.035 secu confd[86449]: audit user: admin/12 assigned to groups: admin
+<INFO> 6-Nov-2016::20:07:01.276 secu confd[86449]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 6-Nov-2016::20:07:04.127 secu confd[86449]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 6-Nov-2016::20:07:04.134 secu confd[86449]: audit user: admin/13 assigned to groups: admin
+<INFO> 6-Nov-2016::20:07:04.307 secu confd[86449]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 7-Nov-2016::16:35:38.846 secu confd[8997]: audit user: admin/0 logged in over ssh from 10.0.0.2 with authmeth:password
+<INFO> 7-Nov-2016::16:35:38.884 secu confd[8997]: audit user: admin/12 assigned to groups: admin
+<INFO> 7-Nov-2016::16:35:39.192 secu confd[8997]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 7-Nov-2016::16:38:46.170 secu confd[10827]: audit user: admin/0 logged in over ssh from 10.0.0.2 with authmeth:password
+<INFO> 7-Nov-2016::16:38:46.174 secu confd[10827]: audit user: admin/12 assigned to groups: admin
+<INFO> 7-Nov-2016::16:38:46.290 secu confd[10827]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 7-Nov-2016::16:47:03.997 secu confd[12737]: audit user: admin/0 logged in over ssh from 10.0.0.2 with authmeth:password
+<INFO> 7-Nov-2016::16:47:04.013 secu confd[12737]: audit user: admin/12 assigned to groups: admin
+<INFO> 7-Nov-2016::16:47:04.207 secu confd[12737]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 7-Nov-2016::16:51:01.797 secu confd[13075]: audit user: admin/0 logged in over ssh from 10.0.0.2 with authmeth:password
+<INFO> 7-Nov-2016::16:51:01.833 secu confd[13075]: audit user: admin/12 assigned to groups: admin
+<INFO> 7-Nov-2016::16:51:02.020 secu confd[13075]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 7-Nov-2016::17:05:16.789 secu confd[15115]: audit user: admin/0 logged in over ssh from 10.0.0.2 with authmeth:password
+<INFO> 7-Nov-2016::17:05:16.815 secu confd[15115]: audit user: admin/12 assigned to groups: admin
+<INFO> 7-Nov-2016::17:05:16.984 secu confd[15115]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:13:55.995 secu confd[4306]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:13:56.025 secu confd[4306]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:13:56.188 secu confd[4306]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:26:29.289 secu confd[4744]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:26:29.305 secu confd[4744]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:26:29.396 secu confd[4744]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:28:52.672 secu confd[6701]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:28:52.703 secu confd[6701]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:28:52.889 secu confd[6701]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:29:43.820 secu confd[6701]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:29:43.833 secu confd[6701]: audit user: admin/13 assigned to groups: admin
+<INFO> 9-Nov-2016::07:29:43.973 secu confd[6701]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:32:40.204 secu confd[8617]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:32:40.231 secu confd[8617]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:32:40.408 secu confd[8617]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:36:28.699 secu confd[9109]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:36:28.726 secu confd[9109]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:36:28.911 secu confd[9109]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:36:40.744 secu confd[9109]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:36:40.779 secu confd[9109]: audit user: admin/13 assigned to groups: admin
+<INFO> 9-Nov-2016::07:36:40.933 secu confd[9109]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:39:25.913 secu confd[9109]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:39:25.920 secu confd[9109]: audit user: admin/14 assigned to groups: admin
+<INFO> 9-Nov-2016::07:39:26.064 secu confd[9109]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:42:05.909 secu confd[11193]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:42:05.941 secu confd[11193]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:42:06.135 secu confd[11193]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:44:12.184 secu confd[11322]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:44:12.189 secu confd[11322]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:44:12.375 secu confd[11322]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:48:45.983 secu confd[12828]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:48:46.013 secu confd[12828]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:48:46.212 secu confd[12828]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:51:18.320 secu confd[12828]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:51:18.325 secu confd[12828]: audit user: admin/13 assigned to groups: admin
+<INFO> 9-Nov-2016::07:51:18.473 secu confd[12828]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:51:58.456 secu confd[12828]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:51:58.463 secu confd[12828]: audit user: admin/14 assigned to groups: admin
+<INFO> 9-Nov-2016::07:51:58.604 secu confd[12828]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::07:56:28.947 secu confd[14842]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::07:56:28.963 secu confd[14842]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::07:56:29.142 secu confd[14842]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::08:09:26.360 secu confd[17526]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::08:09:26.362 secu confd[17526]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::08:09:26.557 secu confd[17526]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::08:09:50.164 secu confd[17526]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::08:09:50.180 secu confd[17526]: audit user: admin/13 assigned to groups: admin
+<INFO> 9-Nov-2016::08:09:50.350 secu confd[17526]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::08:10:19.713 secu confd[17526]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::08:10:19.745 secu confd[17526]: audit user: admin/14 assigned to groups: admin
+<INFO> 9-Nov-2016::08:10:19.885 secu confd[17526]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::09:50:39.134 secu confd[22262]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::09:50:39.148 secu confd[22262]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::09:50:39.354 secu confd[22262]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::09:52:26.162 secu confd[22262]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::09:52:26.176 secu confd[22262]: audit user: admin/13 assigned to groups: admin
+<INFO> 9-Nov-2016::09:52:26.218 secu confd[22262]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::09:54:19.899 secu confd[22262]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::09:54:19.919 secu confd[22262]: audit user: admin/14 assigned to groups: admin
+<INFO> 9-Nov-2016::09:54:19.973 secu confd[22262]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::10:13:50.968 secu confd[22262]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::10:13:50.978 secu confd[22262]: audit user: admin/15 assigned to groups: admin
+<INFO> 9-Nov-2016::10:13:51.036 secu confd[22262]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::12:19:18.185 secu confd[26649]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::12:19:18.198 secu confd[26649]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::12:19:18.308 secu confd[26649]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::12:21:54.284 secu confd[30282]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::12:21:54.286 secu confd[30282]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::12:21:54.469 secu confd[30282]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::12:57:31.242 secu confd[33609]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::12:57:31.250 secu confd[33609]: audit user: admin/12 assigned to groups: admin
+<INFO> 9-Nov-2016::12:57:31.449 secu confd[33609]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::13:02:39.712 secu confd[33609]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::13:02:39.740 secu confd[33609]: audit user: admin/13 assigned to groups: admin
+<INFO> 9-Nov-2016::13:02:39.788 secu confd[33609]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 9-Nov-2016::13:05:53.651 secu confd[33609]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 9-Nov-2016::13:05:53.657 secu confd[33609]: audit user: admin/14 assigned to groups: admin
+<INFO> 9-Nov-2016::13:05:53.707 secu confd[33609]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Nov-2016::20:12:18.154 secu confd[10574]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 11-Nov-2016::20:12:18.182 secu confd[10574]: audit user: admin/12 assigned to groups: admin
+<INFO> 11-Nov-2016::20:12:18.640 secu confd[10574]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Nov-2016::20:20:57.538 secu confd[12642]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 11-Nov-2016::20:20:57.569 secu confd[12642]: audit user: admin/12 assigned to groups: admin
+<INFO> 11-Nov-2016::20:20:57.763 secu confd[12642]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 11-Nov-2016::20:29:14.078 secu confd[14846]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 11-Nov-2016::20:29:14.107 secu confd[14846]: audit user: admin/12 assigned to groups: admin
+<INFO> 11-Nov-2016::20:29:14.209 secu confd[14846]: audit user: admin/0 Logged out ssh <local> user
