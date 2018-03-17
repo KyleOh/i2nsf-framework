@@ -1,0 +1,2 @@
+pass tcp any any -> any [22,109,110,143,443] (msg:"Enterprise Mode"; sid:1; rev:1;)
+reject tcp any any -> any any (msg:"Enterprise Mode-TCP"; sid:2001; rev:1;)

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="1">
+  <edit-config>
+    <target>
+      <running/>
+    </target>
+    <config>
+      <cfg-network-security-control xmlns="http://skku.edu/nsf-facing-interface" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">
+        <policy>
+          <policy-id>2</policy-id>
+          <policy-name>i2nsf-web-filter</policy-name>
+          <rules nc:operation="create">
+            <rule-id>2</rule-id>
+            <rule-name>google</rule-name>
+            <condition>
+              <packet-security-condition>
+                <packet-security-ipv4-condition>
+                  <pkt-sec-cond-ipv4-src>Staff</pkt-sec-cond-ipv4-src>
+                </packet-security-ipv4-condition>
+              </packet-security-condition>
+              <packet-payload-security-condition>
+                <pkt-payload-content>google</pkt-payload-content>
+              </packet-payload-security-condition>
+              <generic-context-condition>
+                <schedule>
+                  <start-time>06:00</start-time>
+                  <end-time>12:00</end-time>
+                </schedule>
+              </generic-context-condition>
+            </condition>
+            <action>
+              <ingress-action-type>drop</ingress-action-type>
+            </action>
+          </rules>
+        </policy>
+      </cfg-network-security-control>
+    </config>
+  </edit-config>
+</rpc>

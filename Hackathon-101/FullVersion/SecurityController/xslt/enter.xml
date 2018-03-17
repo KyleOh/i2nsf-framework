@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<i2nsf>
+	<rule>
+		<rule-id>
+			3
+		</rule-id>
+		<rule-case>
+			enterprise
+		</rule-case>
+		<rule-name>
+			Level-1
+		</rule-name>
+	</rule>
+</i2nsf>

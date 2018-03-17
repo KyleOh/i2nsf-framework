@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<capabilities>
+ <capability>urn:ietf:params:netconf:base:1.0</capability>
+</capabilities>
+</hello>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<nc:rpc xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:pol="http://skku.edu/nsf-facing-interface" message-id="1">
+<nc:edit-config>
+ <nc:target>
+  <nc:running />
+  </nc:target>
+  <nc:config>
+  <pol:cfg-network-security-control>
+   <pol:policy>
+    <pol:policy-id>2</pol:policy-id>
+     <pol:policy-name>i2nsf-web-filter</pol:policy-name>
+     <pol:rules nc:operation="replace">
+     <pol:rule-id>1</pol:rule-id>
+      <pol:rule-name>skkuasdfattttt</pol:rule-name>
+      <pol:condition>
+      <pol:packet-security-condition>
+       <pol:packet-security-ipv4-condition>
+        <pol:pkt-sec-cond-ipv4-src>10.0.0.1</pol:pkt-sec-cond-ipv4-src>
+         <pol:pkt-sec-cond-ipv4-src>10.0.0.2</pol:pkt-sec-cond-ipv4-src>
+         <pol:pkt-sec-cond-ipv4-src>10.0.0.3</pol:pkt-sec-cond-ipv4-src>
+         <pol:pkt-sec-cond-ipv4-src>10.0.0.4</pol:pkt-sec-cond-ipv4-src>
+         <pol:pkt-sec-cond-ipv4-src>10.0.0.5</pol:pkt-sec-cond-ipv4-src>
+         <pol:pkt-sec-cond-ipv4-src>10.0.0.6</pol:pkt-sec-cond-ipv4-src>
+         <pol:pkt-sec-cond-ipv4-src>10.0.0.7</pol:pkt-sec-cond-ipv4-src>
+         <pol:pkt-sec-cond-ipv4-src>10.0.0.8</pol:pkt-sec-cond-ipv4-src>
+         <pol:pkt-sec-cond-ipv4-src>10.0.0.9</pol:pkt-sec-cond-ipv4-src>
+       </pol:packet-security-ipv4-condition>
+       </pol:packet-security-condition>
+       <pol:packet-payload-security-condition>
+       <pol:pkt-payload-content>erererereaaaaaaa</pol:pkt-payload-content>
+       </pol:packet-payload-security-condition>
+       <pol:generic-context-condition>
+       <pol:schedule>
+        <pol:start-time>13:00:00Z</pol:start-time>
+         <pol:end-time>19:00:00Z</pol:end-time>
+        </pol:schedule>
+      </pol:generic-context-condition>
+      </pol:condition>
+      <pol:action>
+      <pol:ingress-action-type>drop</pol:ingress-action-type>
+      </pol:action>
+    </pol:rules>
+    </pol:policy>
+  </pol:cfg-network-security-control>
+  </nc:config>
+</nc:edit-config>
+</nc:rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc message-id="2" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<close-session />
+</rpc>
+]]>]]>

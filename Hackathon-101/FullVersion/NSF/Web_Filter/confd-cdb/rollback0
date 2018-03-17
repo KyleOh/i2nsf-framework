@@ -1,0 +1,14 @@
+# Created by: admin
+# Date: 2018-03-18 00:03:15
+# Via: netconf
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10001
+
+cfg-network-security-control {
+    policy 2 {
+        delete:
+        rules 2;
+    }
+ }

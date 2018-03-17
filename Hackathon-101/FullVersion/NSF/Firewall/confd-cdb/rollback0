@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2018-03-18 00:00:40
+# Via: netconf
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10000
+
+cfg-network-security-control {
+    delete:
+    policy 1;
+}

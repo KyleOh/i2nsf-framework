@@ -1,0 +1,6 @@
+<INFO> 18-Mar-2018::00:00:40.461 secu confd[38956]: netconf id=12 new ssh session for user "admin" from 10.0.0.101
+<INFO> 18-Mar-2018::00:00:40.487 secu confd[38956]: netconf id=12 got rpc: {urn:ietf:params:xml:ns:netconf:base:1.0}edit-config attrs: message-id="1"
+<INFO> 18-Mar-2018::00:00:40.511 secu confd[38956]: netconf id=12 edit-config target=running attrs: message-id="1"
+<INFO> 18-Mar-2018::00:00:47.973 secu confd[38956]: netconf id=12 sending rpc-reply, attrs: message-id="1"
+<INFO> 18-Mar-2018::00:00:47.975 secu confd[38956]: netconf id=12 close-session attrs: message-id="2"
+<INFO> 18-Mar-2018::00:00:47.975 secu confd[38956]: netconf id=12 sending rpc-reply, attrs: message-id="2"

@@ -1,0 +1,2 @@
+reject ip [10.0.0.1,10.0.0.2,10.0.0.3,10.0.0.4,10.0.0.5,10.0.0.6,10.0.0.7,10.0.0.8,10.0.0.9] any -> any any (msg:"Website Reject"; content:"facebook"; nocase; sid:1; rev:1;)
+drop ip [10.0.0.1,10.0.0.2,10.0.0.3,10.0.0.4,10.0.0.5,10.0.0.6,10.0.0.7,10.0.0.8,10.0.0.9] any -> any any (msg:"Website Reject"; content:"google"; nocase; sid:2; rev:1;)

@@ -1,0 +1,6 @@
+<INFO> 18-Mar-2018::00:02:03.301 secu confd[38974]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 18-Mar-2018::00:02:03.332 secu confd[38974]: audit user: admin/12 assigned to groups: admin
+<INFO> 18-Mar-2018::00:02:23.131 secu confd[38974]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 18-Mar-2018::00:03:15.903 secu confd[38974]: audit user: admin/0 logged in over ssh from 10.0.0.101 with authmeth:password
+<INFO> 18-Mar-2018::00:03:15.913 secu confd[38974]: audit user: admin/13 assigned to groups: admin
+<INFO> 18-Mar-2018::00:03:21.712 secu confd[38974]: audit user: admin/0 Logged out ssh <local> user

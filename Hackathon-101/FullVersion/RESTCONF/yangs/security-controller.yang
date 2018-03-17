@@ -1,0 +1,35 @@
+module security-controller {
+  prefix sc;
+
+  organization
+    "SKKU";
+
+  description
+    "security controller yang module";
+
+  revision 2017-02-28{
+    description
+      "initial version";
+  }
+
+
+  list nsf {
+    key "name";
+
+    leaf name {
+      type string;
+    }
+
+    list policy {
+       key "name";
+
+       leaf name {
+         type string;
+       }
+
+       leaf rule {
+         type string;
+       }
+    }
+  }
+}
