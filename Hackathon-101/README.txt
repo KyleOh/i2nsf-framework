@@ -1,6 +1,6 @@
-README for IETF-98 I2NSF Hackathon
+README for IETF-101 I2NSF Hackathon
 
-This explains the source code and manual to remotely participate in IETF-98 I2NSF Hackathon.
+This explains the source code and manual to remotely participate in IETF-101 I2NSF Hackathon.
  
 The following link contains the source code for our I2NSF Hackathon:
 https://github.com/kimjinyong/i2nsf-framework
@@ -25,7 +25,7 @@ The information about each folder is as follows:
 
 4. NSF
    This folder contains the source code for Network Security Functions (NSFs), such as
-   Firewall and Deep Packet Inspection (DPI).
+   Firewall and Web Filter.
 
 5. Scripts
    This folder contains the mysql database schema (i.e., database table for each I2NSF component),
@@ -37,13 +37,13 @@ The information about each folder is as follows:
    This folder contains the source code for Security Controller.
 
 7. bin
-   Execution binary files for (i) NSFs (e.g., Firewall).
+   Execution binary files for (i) NSFs (e.g., firewall, web_filter, and securitycontroller).
 
 Enjoy and Thanks.
 
 Best Regards,
 Jinyong Tim Kim
-Date: 24/03/2017
+Date: 18/03/2018
 -- 
 ===========================
 Jinyong Tim Kim, Ph.D. Student
