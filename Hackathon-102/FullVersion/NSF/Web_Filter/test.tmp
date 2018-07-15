@@ -1,0 +1,1 @@
+drop ip [10.0.0.2,10.0.0.155] any -> any any (msg:"block_ietf"; content:"ietf"; nocase; sid:30000; rev:1;)

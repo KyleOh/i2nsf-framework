@@ -1,0 +1,12 @@
+<INFO> 15-Jul-2018::10:35:05.556 secu confd[23219]: netconf id=12 new ssh session for user "admin" from 10.0.0.205
+<INFO> 15-Jul-2018::10:35:05.577 secu confd[23219]: netconf id=12 got rpc: {urn:ietf:params:xml:ns:netconf:base:1.0}edit-config attrs: message-id="1"
+<INFO> 15-Jul-2018::10:35:05.607 secu confd[23219]: netconf id=12 edit-config target=running attrs: message-id="1"
+<INFO> 15-Jul-2018::10:35:13.789 secu confd[23219]: netconf id=12 sending rpc-reply, attrs: message-id="1"
+<INFO> 15-Jul-2018::10:35:13.792 secu confd[23219]: netconf id=12 close-session attrs: message-id="2"
+<INFO> 15-Jul-2018::10:35:13.792 secu confd[23219]: netconf id=12 sending rpc-reply, attrs: message-id="2"
+<INFO> 15-Jul-2018::10:35:17.290 secu confd[23219]: netconf id=13 new ssh session for user "admin" from 10.0.0.205
+<INFO> 15-Jul-2018::10:35:17.296 secu confd[23219]: netconf id=13 got rpc: {urn:ietf:params:xml:ns:netconf:base:1.0}edit-config attrs: message-id="1"
+<INFO> 15-Jul-2018::10:35:17.315 secu confd[23219]: netconf id=13 data-exists /nc:rpc/nc:edit-config/nc:config/policy-rule-for-nsf:i2nsf-security-policy/policy-rule-for-nsf:rules[policy-rule-for-nsf:rule-name='block_ietf']
+<INFO> 15-Jul-2018::10:35:17.316 secu confd[23219]: netconf id=13 sending rpc-reply, attrs: message-id="1"
+<INFO> 15-Jul-2018::10:35:17.317 secu confd[23219]: netconf id=13 close-session attrs: message-id="2"
+<INFO> 15-Jul-2018::10:35:17.318 secu confd[23219]: netconf id=13 sending rpc-reply, attrs: message-id="2"

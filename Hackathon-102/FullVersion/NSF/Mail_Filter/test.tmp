@@ -1,0 +1,1 @@
+drop ip [10.0.0.2,10.0.0.155] any -> any any (msg:"rule_block_jinhyuk"; content:"gmail"; nocase; sid:20000; rev:1;)

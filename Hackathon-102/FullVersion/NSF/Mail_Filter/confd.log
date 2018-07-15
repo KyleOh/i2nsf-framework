@@ -1,0 +1,28 @@
+<INFO> 15-Jul-2018::10:33:01.258 secu confd[23240]: - Writing daemon log to /home/secu/Hackathon/Hackathon-102/FullVersion/NSF/Mail_Filter/confd.log
+<INFO> 15-Jul-2018::10:33:01.292 secu confd[23240]: - Writing NETCONF log to /home/secu/Hackathon/Hackathon-102/FullVersion/NSF/Mail_Filter/netconf.log
+<INFO> 15-Jul-2018::10:33:01.296 secu confd[23240]: - Writing audit log to /home/secu/Hackathon/Hackathon-102/FullVersion/NSF/Mail_Filter/audit.log
+<INFO> 15-Jul-2018::10:33:01.297 secu confd[23240]: - Writing developer log to /home/secu/Hackathon/Hackathon-102/FullVersion/NSF/Mail_Filter/devel.log
+<INFO> 15-Jul-2018::10:33:01.298 secu confd[23240]: - Daemon logging started
+<DEBUG> 15-Jul-2018::10:33:01.538 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/ietf-inet-types.fxs
+<DEBUG> 15-Jul-2018::10:33:01.552 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/ietf-yang-types.fxs
+<DEBUG> 15-Jul-2018::10:33:01.565 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 15-Jul-2018::10:33:01.570 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 15-Jul-2018::10:33:01.580 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 15-Jul-2018::10:33:01.594 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 15-Jul-2018::10:33:01.611 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/ietf-yang-library.fxs
+<DEBUG> 15-Jul-2018::10:33:01.621 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 15-Jul-2018::10:33:01.650 secu confd[23240]: - Loading file ./ietf-i2nsf-policy-rule-for-nsf.fxs
+<DEBUG> 15-Jul-2018::10:33:01.694 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 15-Jul-2018::10:33:01.715 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 15-Jul-2018::10:33:01.749 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/tailf-acm.fxs
+<DEBUG> 15-Jul-2018::10:33:01.785 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/tailf-kicker.fxs
+<DEBUG> 15-Jul-2018::10:33:01.801 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/tailf-aaa.fxs
+<DEBUG> 15-Jul-2018::10:33:01.875 secu confd[23240]: - Loading file ./commands-c.ccl
+<DEBUG> 15-Jul-2018::10:33:01.950 secu confd[23240]: - Loading file ./commands-j.ccl
+<DEBUG> 15-Jul-2018::10:33:01.958 secu confd[23240]: - Loading file ../../../../../confd-6.2/etc/confd/confd.ccl
+<INFO> 15-Jul-2018::10:33:02.521 secu confd[23240]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 15-Jul-2018::10:33:05.562 secu confd[23240]: - CDB load: processing file: ./confd-cdb/aaa_init.xml
+<INFO> 15-Jul-2018::10:33:07.591 secu confd[23240]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 15-Jul-2018::10:33:07.786 secu confd[23240]: - Starting to listen for NETCONF TCP on 127.0.0.1:2023
+<INFO> 15-Jul-2018::10:33:07.966 secu confd[23240]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 15-Jul-2018::10:33:08.272 secu confd[23240]: - ConfD started vsn: 6.2

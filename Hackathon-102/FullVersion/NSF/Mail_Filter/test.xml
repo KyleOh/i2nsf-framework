@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<capabilities>
+ <capability>urn:ietf:params:netconf:base:1.0</capability>
+</capabilities>
+</hello>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc message-id="1" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<edit-config>
+ <target>
+  <running />
+  </target>
+  <config>
+	<i2nsf-security-policy xmlns="urn:ietf:params:xml:ns:yang:ietf-i2nsf-policy-rule-for-nsf" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">
+		<rules nc:operation="create">
+			<rule-name>test</rule-name>
+			<condition-clause-container>
+				<packet-security-condition>
+					<packet-security-ipv4-condition>
+						<pkt-sec-cond-ipv4-src>10.0.0.1</pkt-sec-cond-ipv4-src>
+					</packet-security-ipv4-condition>
+				</packet-security-condition>
+			</condition-clause-container>
+			<action-clause-container>
+				<ingress-action>
+					<ingress-action-type>reject</ingress-action-type>
+				</ingress-action>
+			</action-clause-container>
+		</rules>
+	</i2nsf-security-policy>
+  </config>
+</edit-config>
+</rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc message-id="2" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<close-session />
+</rpc>
+]]>]]>
