@@ -1,0 +1,8 @@
+<INFO> 15-Jul-2018::10:33:00.637 secu confd[23191]: confd embedded apps in early_phase0: []
+<INFO> 15-Jul-2018::10:33:02.385 secu confd[23191]: confd mmap_schema handle_info got msg: timeout
+<INFO> 15-Jul-2018::10:33:02.472 secu confd[23191]: confd embedded apps in phase0: []
+<INFO> 15-Jul-2018::10:33:05.057 secu confd[23191]: devel-cdb init files found in ./confd-cdb: aaa_init.xml
+<INFO> 15-Jul-2018::10:33:05.483 secu confd[23191]: devel-cdb Compacted CDB journal file: 9 ms (87 nodes in memory, disk size 1.43 KiB -> 1.39 KiB)
+<INFO> 15-Jul-2018::10:33:05.533 secu confd[23191]: confd embedded apps in phase1: []
+<ERR> 15-Jul-2018::10:33:06.739 secu confd[23191]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 15-Jul-2018::10:33:06.989 secu confd[23191]: confd embedded apps in phase2: []
