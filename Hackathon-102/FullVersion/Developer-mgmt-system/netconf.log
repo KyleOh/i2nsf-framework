@@ -1,0 +1,24 @@
+<INFO> 15-Jul-2018::10:33:32.909 secu confd[23305]: netconf id=12 new ssh session for user "admin" from 10.0.0.206
+<INFO> 15-Jul-2018::10:33:32.961 secu confd[23305]: netconf id=12 got rpc: {urn:ietf:params:xml:ns:netconf:base:1.0}edit-config attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:33.045 secu confd[23305]: netconf id=12 edit-config target=running attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:33.143 secu confd[23305]: netconf id=12 sending rpc-reply, attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:33.150 secu confd[23305]: netconf id=12 close-session attrs: message-id="2"
+<INFO> 15-Jul-2018::10:33:33.150 secu confd[23305]: netconf id=12 sending rpc-reply, attrs: message-id="2"
+<INFO> 15-Jul-2018::10:33:39.804 secu confd[23305]: netconf id=13 new ssh session for user "admin" from 10.0.0.206
+<INFO> 15-Jul-2018::10:33:39.808 secu confd[23305]: netconf id=13 got rpc: {urn:ietf:params:xml:ns:netconf:base:1.0}edit-config attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:39.831 secu confd[23305]: netconf id=13 edit-config target=running attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:39.862 secu confd[23305]: netconf id=13 sending rpc-reply, attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:39.864 secu confd[23305]: netconf id=13 close-session attrs: message-id="2"
+<INFO> 15-Jul-2018::10:33:39.865 secu confd[23305]: netconf id=13 sending rpc-reply, attrs: message-id="2"
+<INFO> 15-Jul-2018::10:33:45.664 secu confd[23305]: netconf id=14 new ssh session for user "admin" from 10.0.0.206
+<INFO> 15-Jul-2018::10:33:45.669 secu confd[23305]: netconf id=14 got rpc: {urn:ietf:params:xml:ns:netconf:base:1.0}edit-config attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:45.691 secu confd[23305]: netconf id=14 edit-config target=running attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:45.727 secu confd[23305]: netconf id=14 sending rpc-reply, attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:45.729 secu confd[23305]: netconf id=14 close-session attrs: message-id="2"
+<INFO> 15-Jul-2018::10:33:45.729 secu confd[23305]: netconf id=14 sending rpc-reply, attrs: message-id="2"
+<INFO> 15-Jul-2018::10:33:51.978 secu confd[23305]: netconf id=15 new ssh session for user "admin" from 10.0.0.206
+<INFO> 15-Jul-2018::10:33:51.983 secu confd[23305]: netconf id=15 got rpc: {urn:ietf:params:xml:ns:netconf:base:1.0}edit-config attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:52.016 secu confd[23305]: netconf id=15 edit-config target=running attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:52.045 secu confd[23305]: netconf id=15 sending rpc-reply, attrs: message-id="1"
+<INFO> 15-Jul-2018::10:33:52.047 secu confd[23305]: netconf id=15 close-session attrs: message-id="2"
+<INFO> 15-Jul-2018::10:33:52.047 secu confd[23305]: netconf id=15 sending rpc-reply, attrs: message-id="2"

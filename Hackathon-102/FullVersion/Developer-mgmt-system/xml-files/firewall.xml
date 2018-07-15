@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<capabilities>
+ <capability>urn:ietf:params:netconf:base:1.0</capability>
+</capabilities>
+</hello>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc message-id="1" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<edit-config>
+ <target>
+  <running />
+  </target>
+  <config>
+	<nsf xmlns="urn:ietf:params:xml:ns:yang:ietf-i2nsf-capability" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">
+		<nsfs nc:operation="create">
+			<nsf-name>firewall</nsf-name>
+			<nsf-address>
+				<ipv4-address>10.0.0.201</ipv4-address>
+			</nsf-address>
+			<generic-nsf-capabilities>
+				<net-sec-capabilities>
+					<condition>
+						<packet-security-condition>
+							<packet-security-ipv4-condition>
+								<pkt-sec-cond-ipv4-src>true</pkt-sec-cond-ipv4-src>
+								<pkt-sec-cond-ipv4-dest>true</pkt-sec-cond-ipv4-dest>
+							</packet-security-ipv4-condition>
+						</packet-security-condition>
+					</condition>
+					<action>
+						<ingress-action>
+							<ingress-action-type>
+								<pass>true</pass>
+								<drop>true</drop>
+								<reject>true</reject>
+								<alert>true</alert>
+								<mirror>true</mirror>
+								<log>true</log>
+								<syslog>true</syslog>
+								<session-log>true</session-log>
+							</ingress-action-type>
+						</ingress-action>
+					</action>
+				</net-sec-capabilities>
+			</generic-nsf-capabilities>
+		</nsfs>
+	</nsf>
+  </config>
+</edit-config>
+</rpc>
+]]>]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc message-id="2" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<close-session />
+</rpc>
+]]>]]>

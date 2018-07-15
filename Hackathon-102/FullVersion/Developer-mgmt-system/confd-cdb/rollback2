@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2018-07-15 10:33:39
+# Via: netconf
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10001
+
+nsf {
+    delete:
+    nsfs firewall_based_time;
+}
