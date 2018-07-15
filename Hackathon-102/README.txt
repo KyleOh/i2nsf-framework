@@ -1,11 +1,11 @@
-README for IETF-98 I2NSF Hackathon
+README for IETF-102 I2NSF Hackathon
 
-This explains the source code and manual to remotely participate in IETF-98 I2NSF Hackathon.
+This explains the source code and manual to remotely participate in IETF-102 I2NSF Hackathon.
  
 The following link contains the source code for our I2NSF Hackathon:
-https://github.com/kimjinyong/i2nsf-framework
+https://github.com/kimjinyong/i2nsf-framework/tree/master/Hackathon-102
 
-If you follow this link, you will find a "Hackathon-98" folder which 
+If you follow this link, you will find a "Hackathon-102" folder which 
 consists of 7 subfolders. 
 The information about each folder is as follows:
 
@@ -43,7 +43,7 @@ Enjoy and Thanks.
 
 Best Regards,
 Jinyong Tim Kim
-Date: 24/03/2017
+Date: 16/07/2018
 -- 
 ===========================
 Jinyong Tim Kim, Ph.D. Student
