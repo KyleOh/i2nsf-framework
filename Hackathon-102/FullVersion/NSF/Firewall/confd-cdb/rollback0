@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2018-07-15 10:41:58
+# Via: netconf
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10001
+
+i2nsf-security-policy {
+    delete:
+    rules rule_block_jinhyuk;
+}

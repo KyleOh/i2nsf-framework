@@ -1,0 +1,2 @@
+pass ip [10.0.0.2,10.0.0.155] any -> any any (msg:"Block_iotlab"; sid:50001; rev:1;)
+pass ip [10.0.0.2,10.0.0.155] any -> any any (msg:"block_jinhyuk"; sid:50002; rev:1;)

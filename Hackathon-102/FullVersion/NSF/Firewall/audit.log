@@ -1,0 +1,12 @@
+<INFO> 15-Jul-2018::10:35:02.370 secu confd[23189]: audit user: admin/0 logged in over ssh from 10.0.0.205 with authmeth:password
+<INFO> 15-Jul-2018::10:35:02.406 secu confd[23189]: audit user: admin/12 assigned to groups: admin
+<INFO> 15-Jul-2018::10:35:02.630 secu confd[23189]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 15-Jul-2018::10:35:15.347 secu confd[23189]: audit user: admin/0 logged in over ssh from 10.0.0.205 with authmeth:password
+<INFO> 15-Jul-2018::10:35:15.382 secu confd[23189]: audit user: admin/13 assigned to groups: admin
+<INFO> 15-Jul-2018::10:35:15.566 secu confd[23189]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 15-Jul-2018::10:41:58.831 secu confd[23189]: audit user: admin/0 logged in over ssh from 10.0.0.205 with authmeth:password
+<INFO> 15-Jul-2018::10:41:58.871 secu confd[23189]: audit user: admin/14 assigned to groups: admin
+<INFO> 15-Jul-2018::10:41:59.088 secu confd[23189]: audit user: admin/0 Logged out ssh <local> user
+<INFO> 15-Jul-2018::10:42:13.303 secu confd[23189]: audit user: admin/0 logged in over ssh from 10.0.0.205 with authmeth:password
+<INFO> 15-Jul-2018::10:42:13.342 secu confd[23189]: audit user: admin/15 assigned to groups: admin
+<INFO> 15-Jul-2018::10:42:13.390 secu confd[23189]: audit user: admin/0 Logged out ssh <local> user
